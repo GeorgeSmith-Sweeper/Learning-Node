@@ -1,11 +1,11 @@
-var fs = require('fs');
-// output from buffer converted into a string and split by newline chars
-var buffList = fs.readFileSync(process.argv[2]).toString().split("\n");
+// var fs = require('fs');
+// // output from buffer converted into a string and split by newline chars
+// var buffList = fs.readFileSync(process.argv[2]).toString().split("\n");
 
-var counter = 0;
+// var counter = 0;
 
-for (var i = 1; i < buffList.length; i++) {
-	counter++;
-};
+// for (var i = 1; i < buffList.length; i++) {
+// 	counter++;
+// };
 
-console.log(counter);
+// console.log(counter);
